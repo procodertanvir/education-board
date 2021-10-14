@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #EEE;
+}
+.fixed-width{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header Section */
+.main{
+    background: #fff;
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,.3);
+    margin-top: 10px;
+    height: 575px;
+    border-radius: 7px;
+}
+.header{padding: 10px;}
+.header-logo{
+    width: 25%;
+    text-align: center;
+    background: #EEE;
+    padding: 15.5px 0;
+    box-sizing: border-box;
+    border-radius: 15px 0 0 15px;
+}
+.header-info{
+    width: 75%;
+}
+
+.header-logo img{}
+.header-info h2{font-size: 18px;background: url(img/banner_flag.jpg) #007814 no-repeat top right;padding: 8px 5px;color: #5ad862;}
+.header-info h3{background: #007814;color: #fff;padding: 5px;border-top: 1px solid #6f9f5e;border-bottom: 1px solid #e8e8c8;}
+.header-info a{background: #70B56D;display: block; transition: 300ms;text-align: right;font-size: 11px;padding: 9px 5px;color: #fff;}
+
+.header-info a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+/* Content Section */
+.content-box {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	position: relative;
+}
+form{}
+table{border: 1px solid #000;padding: 30px 70px;margin: 0 auto;}
+table tr{}
+table tr td{}
+td span {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+table tr td select{width: 200px;height: 25px;background: #D2D2D75E;border-radius: 3px;margin-bottom: 2px;}
+table tr td input{width: 197px;height: 25px;background: #D2D2D75E;border-radius: 3px;margin-bottom: 2px;}
+table tr td button{width: 70px;height: 25px;margin-top: 5px;}
+
+h1 {
+	font-size: 48px;
+	opacity: .07;
+	transform: skewY(-11deg);
+	position: absolute;
+	top: 270px;
+	left: 0;
+	right: 0;
+}
+
+/* Footer Section */
+.footer{
+    background: #EEE;
+    padding: 17px 0;
+    border-top: 5px solid #70B56D;
+    margin: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.foot-left{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.foot-right{
+    width: 40%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.foot-left span{font-size: 10px;}
+.foot-right span{font-size: 10px;margin-right: 10px;}
+.foot-right img{vertical-align: middle;}
